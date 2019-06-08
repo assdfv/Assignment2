@@ -1,0 +1,202 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# The ABC company has hired you as an intern on the coding team that creates e-commerce applications. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "\"You must write a script that asks the user for a value. The value must be used as a whole number in a calculation, even if the user enters a decimal value. \\n\","
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter the number of items: 12.4\n",
+      "Thanks for buying  12  items :) \n"
+     ]
+    }
+   ],
+   "source": [
+    "a = float(input(\"Enter the number of items: \"))\n",
+    "b = int(a)\n",
+    "print(\"Thanks for buying \", b, \" items :) \")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# You are creating a Python program that shows a congratulation message to employees on their service anniversary."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter your appoinment date: 1998\n",
+      "Enter your retirement date: 1\n",
+      "CONGRADULATION! You have served -1997 years in our company\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=int(input(\"Enter your appoinment date: \"))\n",
+    "b=int(input(\"Enter your retirement date: \")) \n",
+    "c=b-a\n",
+    "print(\"CONGRADULATION! You have served\", c, \"years in our company\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# assign a vlue to grade by checking the following conditions::\n",
+    "if % is greater then and equal to 90 and less then 100 grade is A+\n",
+    "if % is greater then and equal to 80 and less then 90 grade is A\n",
+    "if % is greater then and equal to 70 and less then 80 grade is B\n",
+    "if % is greater then and equal to 60 and less then 70 grade is C\n",
+    "if % is less than 60 grade is FAIL\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "marks obtained 396\n",
+      "the percentage is 49.5\n"
+     ]
+    }
+   ],
+   "source": [
+    "english = 60\n",
+    "math = 70\n",
+    "urdu = 98\n",
+    "physics = 78\n",
+    "chemistry = 90\n",
+    "totalmarks = 800\n",
+    "a=english+chemistry+physics+urdu+math\n",
+    "print(\"marks obtained\", a)\n",
+    "percentage=(a/totalmarks)*100\n",
+    "print(\"the percentage is\" , percentage )"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter the number of products present in your cart: 2\n",
+      "Thanks for purchasing  2.0 product from our ABC company\n"
+     ]
+    }
+   ],
+   "source": [
+    "product = float(input(\"Enter the number of products present in your cart: \"))\n",
+    "Product = (product)\n",
+    "print(\"Thanks for purchasing \", Product, \"product from our ABC company\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# assign a vlue to grade by checking the following conditions::\n",
+    "if % is greater then and equal to 90 and less then 100 grade is A+\n",
+    "if % is greater then and equal to 80 and less then 90 grade is A\n",
+    "if % is greater then and equal to 70 and less then 80 grade is B\n",
+    "if % is greater then and equal to 60 and less then 70 grade is C\n",
+    "if % is less than 60 grade is FAIL\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Marks Obtained is 396 where Percentage is 79.2 % and Grade is B\n"
+     ]
+    }
+   ],
+   "source": [
+    "Maths = 89\n",
+    "English = 78\n",
+    "Physics = 87\n",
+    "Urdu = 67\n",
+    "Islamiat = 75\n",
+    "total_marks = 500\n",
+    "Marks_obtained = Maths+English+Physics+Urdu+Islamiat\n",
+    "Percentage = (Marks_obtained/total_marks)*100\n",
+    "Grade = None\n",
+    "if Percentage >= 90 and Percentage < 100 :\n",
+    "    Grade = \"A+\"\n",
+    "elif Percentage >= 80 and Percentage < 90 :\n",
+    "    Grade = \"A\"\n",
+    "elif Percentage >= 70 and Percentage < 80 :\n",
+    "    Grade = \"B\"\n",
+    "elif Percentage >= 60 and Percentage < 70 :\n",
+    "    Grade = \"C\"\n",
+    "elif Percentage < 60 :\n",
+    "    Grade = \"FAIL\"\n",
+    "print(\"Marks Obtained is\", Marks_obtained, \"where Percentage is\", Percentage, \"%\", \"and Grade is\", Grade)"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
